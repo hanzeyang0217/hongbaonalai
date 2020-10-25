@@ -22,7 +22,7 @@ document.addEventListener('touchstart', function(event) {
 });
 document.addEventListener('touchend', function(event) {
   const now = (new Date()).getTime();
-  if (now - lastTouchEnd <= 300) {
+  if (now - lastTouchEnd <= 100) {
     event.preventDefault();
   }
   lastTouchEnd = now;
