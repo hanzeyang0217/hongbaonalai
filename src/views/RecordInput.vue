@@ -117,13 +117,8 @@
   .box {
     display: flex;
     flex-direction: column;
-    /*justify-content: space-between;*/
     height: 100vh;
 
-    > div {
-      /*padding-top: 56px;*/
-      /*padding-bottom: 56px;*/
-    }
   }
 
   .moneyUl {

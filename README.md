@@ -1,5 +1,8 @@
 # hongbaonalai
-
+## 预览
+```
+https://hanzeyang0217.github.io/hongbaonalai/
+```
 ## Project setup
 ```
 yarn install
