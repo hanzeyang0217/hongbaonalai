@@ -293,6 +293,7 @@
       background-color: white;
       -webkit-transition: all 0.2s ease-in;
       transition: all 0.2s ease-in;
+      overflow: hidden;
 
       &.show {
         height: 336px;
