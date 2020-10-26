@@ -3,7 +3,9 @@
     <label>
       <input class="GridItemInput" :value="gridItemData.inputData" :disabled="gridItemData.readonly"
              @input="input($event.target.value)"
-             :class="{errorStyle: gridItemData.errorMark }"/>
+             :class="{errorStyle: gridItemData.errorMark }"
+             type="number"
+      />
     </label>
   </div>
 </template>

@@ -48,10 +48,10 @@
                 <label>{{expense.headerData + ' '}}</label>
                 <label @click="createRecord(recordData[expense.key])">
                   {{
-                  inputData(
+                  Number(inputData(
                   recordData[expense.key].amount,
                   expense.key
-                  )
+                  )).toFixed(2).toString()
                   }}
                 </label>
                 <label> / </label>
@@ -77,7 +77,6 @@
             v-if="(expenseType !== offList[0] &&
             expenseType !== offList[1])"
           >
-            <!--          (expense.inputData - recordData[expense.key].amount)!==0-->
             {{diffValue(
             expense.inputData,
             recordData[expense.key].amount,
