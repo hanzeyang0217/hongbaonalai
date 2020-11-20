@@ -28,11 +28,9 @@ The back end is not done yet.
 4. check your asset movement on the 推移Page when you have nothing else to do.
 ```
 ## E2E test
-```markdown
 - used [cypress](https://www.cypress.io/)
 - [preview](https://youtu.be/T5NuHIz-AfM)  
 - [git](https://github.com/hanzeyang0217/cypress-demo/blob/main/cypress/integration/hongbaonalai.js)
-```
 
 ## Project setup
 ```
